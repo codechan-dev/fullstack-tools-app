@@ -1,0 +1,6 @@
+<h1>Tool List</h1>
+<ul>
+  <li *ngFor="let tool of tools">{{ tool.name }} - {{ tool.description }}</li>
+</ul>
+<a routerLink="/create">Create New Tool</a>
+<router-outlet></router-outlet>
